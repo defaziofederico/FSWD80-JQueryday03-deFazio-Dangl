@@ -16,7 +16,41 @@
 
 	<h1>jQuery Animation</h1>
 
-	<div id="animate">ANIMATE</div>
+	<!-- <div id="animate">ANIMATE</div> -->
+	
+	<ul id="todos">
+		<li>Get the milk</li>
+		<li>Learn jQuery</li>
+		<li>Sleep</li>
+		<li>Read a book</li>
+		<li>Drink a beer</li>
+	</ul>
+	
+
+
+	<script>
+		$(document).ready(function() {
+			$("#animate").hide().fadeIn("slow").delay(5000).fadeOut("slow");
+			$("#todos li").on("click", function(){
+				$(this).animate({
+								opacity: 0.5,
+								paddingLeft: '+=80'
+				}, 1000, function() {$(this).remove();
+						});
+
+
+				});  	                
+			});
+
+		
+
+		
+
+
+
+
+
+	</script>
 
 </body>
 </html>
