@@ -44,6 +44,7 @@ div#moveme
 	line-height: 4em;
 	/*text-align: center;*/
 	margin: 5px;
+	position:absolute;
 	/*color: #fff;*/
 	/*background-color: #00c;*/
 	overflow: visible;
