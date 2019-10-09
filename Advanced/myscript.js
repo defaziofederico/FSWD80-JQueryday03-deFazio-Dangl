@@ -7,6 +7,7 @@ $(document).ready(function(){
 			$(this).animate({
 				"bottom": 0 + 128,
 				"left": 0,
+				 
 			},
 			2000,"linear",function() {$(this).fadeOut(1000).fadeIn(1000)
 			});
