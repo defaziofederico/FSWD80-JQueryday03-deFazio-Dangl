@@ -63,10 +63,6 @@ $(document).ready(function(){
 	$(".phone").css("background-color", "green");
 
 $("#info").on("change", function(){
-
-
-
-
 	var select=$("#info").val();
 			$(".notebook,.tablet,.phone").hide();
 				if (select=="all") {
